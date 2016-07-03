@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startCamera(View view){
-        Intent intent = new Intent(this,show_camera.class);
+        Intent intent = new Intent(this,android_camera.class);
         startActivity(intent);
     }
 
